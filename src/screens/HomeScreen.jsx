@@ -12,8 +12,8 @@ export default function HomeScreen() {
 
       <Text style={styles.title}></Text>
       <Button
-        title="Ver um Filme"
-        onPress={() => navigation.navigate('FilmeScreen')}
+        title="Ver informações do seu dispositivo"
+        onPress={() => navigation.navigate('DeviceInfoScreen')}
       />
       
 
